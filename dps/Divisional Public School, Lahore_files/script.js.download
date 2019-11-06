@@ -1,0 +1,75 @@
+// jquery
+$(document).ready(function(){
+    $('.principal').on('click', function(){
+        data = {'page':'principal'};
+        $.post('render.php', data, function(data, status){
+            $('#content').html(data);
+        });
+    });
+    $('.genesis').on('click', function(){
+        data = {'page':'genesis'};
+        $.post('render.php', data, function(data, status){
+            $('#content').html(data);
+        });
+    });
+    $('.history').on('click', function(){
+        data = {'page':'history'};
+        $.post('render.php', data, function(data, status){
+            $('#content').html(data);
+        });
+    });
+    $('.main').on('click', function(){
+        data = {'page':'main'};
+        $.post('render.php', data, function(data, status){
+            $('#content').html(data);
+        });
+    });
+    $('.pbog').on('click', function(){
+        data = {'page':'pbog'};
+        $.post('render.php', data, function(data, status){
+            $('#content').html(data);
+        });
+    });
+    $('.plist').on('click', function(){
+        data = {'page':'plist'};
+        $.post('render.php', data, function(data, status){
+            $('#content').html(data);
+        });
+    });
+    $('.principal').on('click', function(){
+        data = {'page':'principal'};
+        $.post('render.php', data, function(data, status){
+            $('#content').html(data);
+        });
+    });
+    $('.gallery').on('click', function(){
+        data = {'page':'gallery'};
+        $.post('render.php', data, function(data, status){
+            $('#content').html(data);
+        });
+    });
+    $('.pbog').on('click', function(){
+        data = {'page':'pbog'};
+        $.post('render.php', data, function(data, status){
+            $('#content').html(data);
+        });
+    });
+    $('.plist').on('click', function(){
+        data = {'page':'plist'};
+        $.post('render.php', data, function(data, status){
+            $('#content').html(data);
+        });
+    });
+    $('.modern_dev').on('click', function(){
+        data = {'page':'modern_dev'};
+        $.post('render.php', data, function(data, status){
+            $('#content').html(data);
+        });
+    });
+    $('.all-news').on('click', function(){
+        data = {'page':'news'};
+        $.post('render.php', data, function(data, status){
+            $('#content').html(data);
+        });
+    });
+});
